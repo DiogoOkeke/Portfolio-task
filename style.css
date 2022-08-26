@@ -1,0 +1,439 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+/* First Part*/
+
+#first-section{
+ 
+
+ background-image: linear-gradient( rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)), url(photo-2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ 
+}
+
+nav{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ overflow: auto;
+ white-space: nowrap;
+}
+
+/*nav::-webkit-scrollbar{
+ 
+ }*/
+ 
+
+.portfolio{
+ margin-left: 25px;
+ margin-right: 100px;
+ margin-top: 15px;
+ letter-spacing: 1px;
+ text-transform: capitalize;
+ }
+ 
+ .lio{
+  color: #f9004d;
+ }
+ 
+ .margin-style{
+  margin-top: 30px;
+ }
+ 
+ .name{
+  margin-top: 10px;
+ }
+
+.list-item{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ text-align: center;
+ margin-left: 10px;
+ margin-top: 15px;
+}
+
+.list-item a{
+ text-decoration: none;
+ font-size: 15px;
+ color: white;
+ padding: 10px;
+ transition: color 0.4s;
+ }
+ 
+ .button-part{
+  margin-left: 90px;
+  margin-right: 40px;
+ }
+ 
+ .list-item a:hover{
+  color: #f9004d;
+ }
+ 
+ .nav-bar{
+  font-size: 30px;
+ }
+ 
+
+.subscribe-btn{
+ color: #fff;
+ background-color: #f9004d;
+ font-size: 10px;
+ border-radius: 30px;
+ padding: 7px 20px;
+ border: 2px solid transparent;
+ font-weight: bold;
+ font-size:  15px;
+ letter-spacing: 1px;
+ transition: transform  0.15s, color 0.15s, background-color 0.15s ;
+}
+
+.subscribe-btn:hover{
+ transform: scale(1.2);
+ background-color: transparent;
+ border: 2px solid #f9004d;
+ color: #f9004d;
+}
+
+.intro{
+color: #fcfc;
+ 
+}
+
+.info-part{
+ margin-left: 25px;
+ padding-top: 15px;
+ padding-bottom: 40px;
+ }
+ 
+
+.info-part h2,h5,h4{
+ margin: 0;
+ line-height: 2;
+ }
+ 
+
+.info-part h5{
+
+ color: #fcfc;
+ }
+
+.web-dev{
+ color: #f9004d;
+}
+
+.form-part{
+ margin-top: 30px;
+}
+
+.form-part form{
+ position: relative;
+}
+
+.input-one{
+ background-color: #fff;
+ padding-block: 8px;
+ padding-left: 10px;
+ padding-right: 75px;
+ border: 1px solid #f9004d;
+ border-radius: 15px;
+ border: none;
+ outline: none;
+}
+
+
+.input-two{
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ top: 4px;
+ right: 75px;
+ display: flex;
+ justify-content: center;
+ background-color: #f9004d;
+ color: #fff;
+ font-size: 10px;
+ opacity: 0.9;
+ padding-block: 6px;
+ padding-left: 25px;
+ padding-right: 25px;
+ border-radius: 35px;
+ border: none;
+ box-shadow: 2px 2px 4px gray;
+}
+
+
+
+
+
+
+/*Second Part*/
+
+#about-section{
+ background-color: #191919;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-block: 40px;
+ display: flex;
+ align-items: center;
+}
+
+#about-section p{
+ font-size: 10px;
+ line-height: 1.5;
+}
+
+#about-section p,h2{
+ margin: 0;
+ font-weight: bold;
+}
+
+.designer{
+ color: white;
+}
+
+.designer1{
+ letter-spacing: 1px;
+ color: #f9004d;
+}
+
+#about-section h2{
+ margin-bottom: 10px;
+ font-size: 35px;
+ color: white;
+}
+
+.girl-image{
+ border-radius: 10px 20px;
+ box-shadow: 3px 3px 3px black;
+ object-fit: cover;
+}
+
+.about-text{
+ margin-left: 20px;
+}
+
+.about-text p{
+ color: white;
+}
+
+.about-text1{
+ margin-block: 15px;
+}
+
+.about-text1 p{
+ color: #fcfc;
+ line-height: 1.5;
+}
+
+#about-section button{
+ color: white;
+ background-color: #f9004d;
+ border-radius: 15px;
+ outline: 0px solid transparent;
+ border: none;
+ padding: 6px 20px;
+ font-weight: bold;
+ font-size: 10px;
+ transition: color 0.15s, background-color 0.15s;
+}
+
+#about-section button:hover{
+ color: #f9004d;
+ background-color: transparent;
+ border: 2px solid #f9004d;
+}
+
+
+/*Third Part*/
+
+#third-part{
+ padding: 40px 60px 60px 40px;
+ background-color: #101010;
+
+}
+
+#third-part h1{
+ color: white;
+}
+
+.web-info{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center; 
+ font-size: 10px;
+}
+
+.info-div{
+ padding: 20px;
+ background-color: #191919;
+ margin-bottom: 20px;
+ box-shadow: 5px 5px 5px black;
+}
+
+.info-div p{
+ line-height: 1.5;
+ font-size: 12px;
+ color: #fcfc;
+}
+
+.info-div h3{
+ font-weight: bold;
+ font-size: 15px;
+ color: white;
+}
+
+
+.web-info button{
+ color: white;
+ background-color: #f9004d;
+ border-radius: 15px;
+ border: none;
+ font-size: 10px;
+ padding: 6px 15px;
+ font-weight: bold;
+ transition: color 0.15s, background-color 0.15s;
+ 
+}
+
+.web-info button:hover{
+ color: #f9004d;
+ background-color: transparent;
+ border: 2px solid #f9004d;
+}
+
+.web-info i{
+ color: #f9004d;
+ display: flex;
+ justify-content: center;
+ font-size: 25px;
+}
+
+
+/*Fourth Part*/
+
+#fourth-part{
+ background-color: #191919;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-block: 40px;
+ border-block: 0.5px solid gray;
+}
+
+#fourth-part button{
+ color: white;
+ background-color: #f9004d;
+ border-radius: 15px;
+ border: none;
+ padding: 6px 20px;
+ font-weight: bold;
+ transition: color 0.15s, background-color 0.15s;
+ font-size: 10px;
+}
+
+#fourth-part button:hover{
+ color: #f9004d;
+ background-color: transparent;
+ border: 1px solid #f9004d;
+}
+
+.hire-button{
+ margin-top: 12px;
+}
+
+#fourth-part h4{
+ color: #fff;
+ font-weight: bold;
+ font-size: 12px;
+ }
+ 
+ .fourth-text{
+  
+  padding-left: 50px;
+  padding-right: 50px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+ }
+
+
+
+
+
+/*Footer*/
+
+footer{
+ padding: 40px 70px 20px 70px;
+ background-color: #101010;
+ 
+}
+
+footer h1{
+ color: white;
+ font-weight: bold;
+ font-size: 17px;
+}
+
+
+footer .end-note{
+ font-size: 10px;
+ line-height: 1.5;
+ font-weight: bold;
+ font-size: 13px;
+ color: white;
+ margin: 0;
+}
+
+.icon-part{
+ display: flex;
+ justify-content: center;
+ margin-top: 10px;
+ margin-left: 15px;
+ margin-right: 30px;
+ 
+}
+
+.linkedin{
+ margin-left: 40px;
+ margin-right: 40px;
+}
+
+footer a i{
+ background-color: #f9004d;
+ color: #fff;
+ border-radius: 100%;
+ width: 150%;
+ height: 50%;
+ font-size: 15px;
+ border: none;
+ padding-block: 7px;
+ padding-left: 2px;
+ padding-right: 2px;
+ transition: scale 0.4s;
+}
+
+footer a i:hover{
+ transform: scale(1.4);
+}
+
+footer .copyright{
+ color: #f9004d;
+ font-weight: bold;
+ font-size: 12px;
+ margin: 0;
+}
+
+.footer-part{
+ margin-bottom: 30px;
+}
