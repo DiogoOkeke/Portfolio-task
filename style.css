@@ -29,9 +29,6 @@ nav{
  white-space: nowrap;
 }
 
-/*nav::-webkit-scrollbar{
- 
- }*/
  
 
 .portfolio{
@@ -125,7 +122,6 @@ color: #fcfc;
  
 
 .info-part h5{
-
  color: #fcfc;
  }
 
@@ -360,7 +356,7 @@ color: #fcfc;
  }
  
  .fourth-text{
-  
+  text-align: center;
   padding-left: 50px;
   padding-right: 50px;
   white-space: nowrap;
