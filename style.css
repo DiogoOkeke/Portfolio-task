@@ -11,13 +11,10 @@ html{
 /* First Part*/
 
 #first-section{
- 
-
  background-image: linear-gradient( rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)), url(photo-2.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  color: white;
- 
 }
 
 nav{
@@ -255,9 +252,8 @@ color: #fcfc;
 /*Third Part*/
 
 #third-part{
- padding: 40px 60px 60px 40px;
+ padding: 40px 40px 60px 40px;
  background-color: #101010;
-
 }
 
 #third-part h1{
